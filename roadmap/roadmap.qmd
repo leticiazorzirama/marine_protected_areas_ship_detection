@@ -54,7 +54,7 @@ Avaliar a performance de modelos de aprendizado profundo para a detecção orien
 
 ## Objetivos Específicos
 
-a) Compilar uma base de dados para treinamento dos algoritmos; 
+a) Compilar uma base de dados para treinamento e teste dos algoritmos; 
 b) Propor um pipeline para implementação e avaliação dos algoritmos; 
 c) Avaliar algoritmos de aprendizado profundo para detectar embarcações de pesca a partir de imagens de ópticas satélite de diferentes resoluções e sensores; 
 d) Consolidar uma ferramenta iterativa para avaliação dos resultados, além de sua divulgação à comunidade em geral.
@@ -99,7 +99,24 @@ A partir destas informações, deverá ser buscada imagens que compatibilizem-se
 
 # Análise Exploratória de Dados
 
-A definir...
+## Áreas e épocas das atividades de pesca de interesse 
+\noindent Compilar uma base de dados para treinamento e teste dos algoritmos (objetivo específico (a)) é um objetivo que irá se decompor em atividades hierarquicamente estruturadas. Uma das atividades será a análise explotarória de dados para se definir áreas e épocas de busca das imagens de satélite. Áreas e épocas de busca são necessárias para maximizar a chance de se encontrar imagens ópticas de satélite, de alta resolução, com embarcações pesqueiras presentes em zonas do Oceano aberto onde ocorrem as atividades de pesca de interesse do projeto. 
+
+Para que áreas e épocas de busca sejam definidas, será preciso descobrir padrões históricos de ocorrência de embarcações de pesca cujas operações incluem áreas no entorno das Grandes Unidades Oceânicas. A descoberta de padrões de ocorrência implicará na coleta de dados históricos de fontes como o GFW e o PMAP-SC. Durante a coleta será necessário conhecer os dados disponibilizados pelo GFW e pelo PMAP-SC no sentido de quais são e o que representam no âmbito da ciência pesqueira. A estrutura abaixo representa essa hierarquia:
+
+|_Compilar uma base de dados para treinamento dos algoritmos;
+
+|__Encontrar imagens de satélite, de alta resolução, com embarcações pesqueiras presentes em zonas do Oceano aberto onde ocorrem as atividades de pesca de interesse;
+
+|___Definir áreas e épocas de busca;
+
+|____Descobrir padrões históricos de ocorrência de embarcações de pesca cujas operações incluem áreas no entorno das Grandes Unidades Oceânicas;
+
+|_____Analisar exploratória dos dados;
+
+|______Coletar dados do GFW e do PMAP-SC;
+
+|_______Conhecer os dados disponibilizados pelo GFW e pelo PMAP-SC no sentido de quais são e o que representam no âmbito da ciência pesqueira.
 
 # Desenvolvimento dos Modelos
 
